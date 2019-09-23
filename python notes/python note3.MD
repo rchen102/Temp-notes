@@ -1,0 +1,30 @@
+## 控制流 (control flow)
+
+参考
+[codecademy Learn Python3](https://www.codecademy.com/learn/learn-python-3)
+
+### 条件语句 conditional statements
+
+python不支持三目运算符，但是可以利用`if`, `else`实现
+
+```python
+def checkNumber(num):
+    if num > 0:
+        return "Positive"
+    elif num < 0:
+        return "Negative"
+    else:
+        return "Zero"
+
+# Implement ternary operator
+return x if x > y else y
+```
+
+### Error Catch
+使用关键字`try`, `Except
+```python
+try:
+    # some statement
+except ErrorName:
+    # some statement
+```
