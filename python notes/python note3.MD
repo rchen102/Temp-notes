@@ -20,8 +20,8 @@ def checkNumber(num):
 return x if x > y else y
 ```
 
-### Error Catch
-使用关键字`try`, `Except
+### Error Except
+使用关键字`try`, `Except`
 ```python
 try:
     # some statement

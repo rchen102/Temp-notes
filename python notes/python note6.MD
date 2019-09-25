@@ -16,7 +16,7 @@ String方法
 - `delimiter.join(list_you_want_to_join)`: 与split相反，返回连接后的新字符串，如果使用`,`，则可以得到CSV(comma separated variables)
 - `str.strip(character)`: 去除首尾字符，默认去除空格，返回新字符串
 - `str.replace(replaced, new)`: 置换字符串，返回新字符串
-- `str.find(target)`: 返回目标字符串在str中第一次出现时的位置
+- `str.find(target, beg=0, end=len(string))`: 返回目标字符串在str首次出现索引，否则-1
 - `“Hello, my name is {}”.format('renze')`: 格式化字符串
   `“{0} and {1}”.format('renze', 'chen')`: 可以设置指定位置
   `“{first} and {last}”.format(first='renze', last='chen')`: 可以使用参数

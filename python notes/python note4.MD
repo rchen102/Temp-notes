@@ -19,7 +19,7 @@ ints_and_strings = [1, 2, 3, 'four', 'five']
 - `list[start:end]`: 返回List切片(slicing)
   可以省略`start`则表示从第一个元素开始，省略`end`表示到最后一个元素
 - `list.append(element)`: 添加元素
-- `element = list.pop()`: 移除并返回最后一个元素
+- `list.pop()`: 移除并返回最后一个元素
 - `list.count(element)`: 统计元素出现次数
 - `list.sort()`: 按numerical或者alphabetical排序，改变原List，没有返回
   逆序: `list.sort(reverse=True)`
@@ -35,6 +35,8 @@ ints_and_strings = [1, 2, 3, 'four', 'five']
 - `len(list)`: 返回List长度
 
 - `list(zip(list1, list2))`: 返回元组列表
+  `zip(list1, list2)`: 将来自两个列表的元素成对(pair)合并为一个，返回zip对象地址
 - `list(range(n))`: 返回[0,...,n-1]列表(consecutive numbers)
   `list(range(n1, n2))`: 返回[n1,...,n2-1]列表
   `list(range(n1, n2, step))`: 返回[n1,...,n2-1]列表
+- `list = [item for item in otherList]`: List Comprehension创建列表
