@@ -38,7 +38,7 @@ Numbers
 String
 - 可以利用`+`连接字符串(concatenate string)
 - 可以利用`*`复制字符串(repeat string)
-- 使用`str()`将其他类型转化为字符串
+- 在连接其他非字符串时，先使用`str()`将其他类型转化为字符串
 - 多行String使用三个引号`"""` 或者 `'''`
 - 
     ```python
@@ -71,10 +71,23 @@ python 函数的参数传递：
 
 - 可变类型：类似 c++ 的引用传递，如 列表，字典。如 fun（la），则是将 la 真正的传过去，修改后fun外部的la也会受影响
 
+## None
+
+None is a special value in Python. It is unique (there can’t be two different Nones) and immutable (you can’t update None or assign new attributes to it).
+
+`None` is falsy: in if statement it will be considered as false
+`None` is unique: test something is `Node` use `is`
+
+```py
+if something is None:
+    // do something
+if something is not None:
+    // do something
+```
+
 
 
 ## 运算符
-
 赋值运算符
 `+=, -=, etc`
 
