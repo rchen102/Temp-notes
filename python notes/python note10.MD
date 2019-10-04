@@ -3,9 +3,9 @@
 参考
 [codecademy Learn Python3](https://www.codecademy.com/learn/learn-python-3)
 
-
 ### 定义
 使用关键字`class`定义类
+类的命名遵从Pascal Case(每个单词首字母大写，不使用下划线)
 class is a schematic for a data type and an object is an instance of a class
 
 ```py
@@ -22,6 +22,8 @@ print(type(class_instance))
 
 ### 方法
 方法(Method)的第一个参数self为调用该方法的对象本身(refers to the object calling the function)
+实例(instance)调用方法时，会隐式的传递实例自己作为参数之一，因此方法的声明都需要`self`参数
+
 
 ```py
 class Dog:
@@ -32,7 +34,7 @@ class Dog:
 ```
 
 ### 构造器
-构造器(Construtor)为class中的特殊方法之一(dunder)
+构造器(Construtor)也称(init method)为class中的特殊方法之一(dunder)
 (double-underscore abbreviated to “dunder”)
 
 `__init__`： 构造器，在实例创建时，负责初始化
@@ -42,8 +44,8 @@ def __init__(self):
 ```
 
 ### 属性
-属性(attribute)包含了class variables和instance variables
-属性同样包含了方法Method
+属性(Attribute)包含了class variables和instance variables
+方法(Method)也可以认为是一种attribute(函数也是对象)
 ```py
 class Musician: 
     title = "Rockstar"  #class variable

@@ -20,5 +20,6 @@ String方法
 - `“Hello, my name is {}”.format('renze')`: 格式化字符串
   `“{0} and {1}”.format('renze', 'chen')`: 可以设置指定位置
   `“{first} and {last}”.format(first='renze', last='chen')`: 可以使用参数
+  `{}`实际可以设置格式参数，如保留小数点位数等
   
     

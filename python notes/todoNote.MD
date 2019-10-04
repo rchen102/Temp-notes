@@ -7,3 +7,5 @@ def dave_check(user_name):
 user_name = "renze"
 print(dave_check(user_name)) # print None
 ```
+
+## lambda

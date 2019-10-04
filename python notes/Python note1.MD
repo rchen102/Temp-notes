@@ -1,5 +1,9 @@
 ## 基础
 
+
+### Introduction
+Python is a high-level language, which takes less time to program, but also less control over prformance
+
 ### print
 使用""或者''都可以，但是最好保持一致(consistent)
 当String中包含""或''时，可以灵活使用，避免提前截断
@@ -12,6 +16,7 @@ print('Hello World')
 ## 变量/Variable
 Python变量不需要声明类型，可以直接使用
 每个变量相当于一个box，可以放置任意类型变量
+命名习惯使用__Snake Case__
 
 ## Error
 SyntaxError
@@ -34,26 +39,26 @@ type(variable) # return type of variable
 Numbers
 - int
 - float
+- String to int: `int(str)`
 
 String
 - 可以利用`+`连接字符串(concatenate string)
 - 可以利用`*`复制字符串(repeat string)
 - 在连接其他非字符串时，先使用`str()`将其他类型转化为字符串
 - 多行String使用三个引号`"""` 或者 `'''`
-- 
-    ```python
-    str1 = "My age is "
-    age = 12
-    str2 = str1 + str(age) + str1
-    # Another way to concatenate string
-    # Just pass variables as arguments
-    print(str1, age, str2)
 
-    str = """
-    Come on!
-    You are the best!
-    """
-    ```
+```py
+str1 = "My age is "
+age = 12
+str2 = str1 + str(age) + str1
+# Another way to concatenate string
+# Just pass variables as arguments
+print(str1, age, str2)
+str = """
+Come on!
+You are the best!
+"""
+```
 
 Bool
 - `True` or `False`
