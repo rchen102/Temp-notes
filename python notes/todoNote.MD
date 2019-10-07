@@ -9,3 +9,7 @@ print(dave_check(user_name)) # print None
 ```
 
 ## lambda
+
+## import
+import xxx as xxx
+from xx import xx

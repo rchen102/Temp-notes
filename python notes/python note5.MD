@@ -4,7 +4,8 @@
 [codecademy Learn Python3](https://www.codecademy.com/learn/learn-python-3)
 
 python同样支持使用`break`和`continue`关键字
-- for 
+
+- for
 ```python
 for <temporary variable> in <list variable>:
     <action>
