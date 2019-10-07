@@ -3,8 +3,6 @@
 参考
 [codecademy Learn Python3](https://www.codecademy.com/learn/learn-python-3)
 
-
-
 ### File
 使用`with`打开文件无需手动close文件
 

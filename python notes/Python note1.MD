@@ -1,6 +1,5 @@
 ## 基础
 
-
 ### Introduction
 Python is a high-level language, which takes less time to program, but also less control over prformance
 
