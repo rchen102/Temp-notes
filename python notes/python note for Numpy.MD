@@ -16,8 +16,6 @@ data_ndarray = np.array([1, 2, 3, 4])
 
 __访问__
 ```py
-
-
 # access data
 data_ndarray[row_idx, column_idx]
 data_ndarray[row_idx]
@@ -37,6 +35,9 @@ data_ndarray.shape
 
 # internal data type
 data_ndarray.dtype
+
+# Used as not a number in np
+np.nan
 
 # support vector operation, 
 # like vector addition, subtraction, multiplication, division (unrelated to linear algebra)
