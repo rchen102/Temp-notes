@@ -7,7 +7,6 @@ num = true; // Error: incompatible types: boolean cannot be converted to int
 
 ### Java字符串
 __目录__
-
 字符串创建
 转义字符: \\, \n, \t, \", \'
 +: 连接，数据转换
@@ -51,3 +50,19 @@ sum({1,2,3});
 ### 常量池，字符串池，包装类对象池
 https://blog.csdn.net/Xu_JL1997/article/details/89150026
 
+###
+修饰符顺序 public static final int
+
+### Object 类
+- `String toString()`
+  打印时被自动调用，返回值作为参数
+  默认返回对象实例化的地址
+
+- `boolean equals(Object obj)`
+  使用`==`比较时，比较对象实例地址
+  如果需要比较对象内容，不同的类可以根据需求覆写`equals`
+
+### Annotation注解
+JDK1.5之后新增
+公共环境配置 -> 配置文件
+程序配置 -> Annotation
