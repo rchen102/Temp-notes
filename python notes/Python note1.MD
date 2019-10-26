@@ -109,6 +109,8 @@ if something is not None:
     print(2 ** 10)  # print 1024
     ```
 
+不支持自增自减运算
+
 布尔逻辑运算符(Boolean Operator)
 - `and`, `or`, `not`
 

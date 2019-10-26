@@ -66,3 +66,6 @@ https://blog.csdn.net/Xu_JL1997/article/details/89150026
 JDK1.5之后新增
 公共环境配置 -> 配置文件
 程序配置 -> Annotation
+
+### Arrays
+Arrays.asList与ArrayList，LinkedList不一样
