@@ -12,3 +12,7 @@ JDK1.5之后新增
 
 警告压制@SuppressWarnings
 - 对于已知的风险和警告，压制警告提示
+
+
+### visitor pattern
+-> double dispatch
