@@ -16,3 +16,8 @@ JDK1.5之后新增
 
 ### visitor pattern
 -> double dispatch
+static binding/dynamic binding
+Dynamic Method Dispatch or Runtime Polymorphism
+静态分发/动态分发 static/dynamic dispatch
+
+single dispatch
