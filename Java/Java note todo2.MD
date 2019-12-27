@@ -21,3 +21,6 @@ Dynamic Method Dispatch or Runtime Polymorphism
 静态分发/动态分发 static/dynamic dispatch
 
 single dispatch
+
+## 内建式函数接口
+李兴华Java P152
