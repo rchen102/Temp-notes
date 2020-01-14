@@ -24,3 +24,5 @@ single dispatch
 
 ## 内建式函数接口
 李兴华Java P152
+
+## for循环内使用int 重复声明
