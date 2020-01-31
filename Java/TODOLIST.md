@@ -10,7 +10,7 @@ Java后端考察方面:
     + 《Java编程思想》，《Effective Java》
 - 虚拟机和并发编程
     + 《深入理解Java虚拟机》： 重点学习内存，垃圾回收，类加载机制
-    + 《Java并发b编程实战》
+    + 《Java并发编程实战》
 - 源码的考察
     + 集合框架: HashTable, HashMap, ConcurrentHashMap
 
